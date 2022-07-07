@@ -21,5 +21,3 @@ set.relativenumber = true
 set.cursorline = true
 
 set.hidden = true
-
-vim.lsp.set_log_level('debug')
