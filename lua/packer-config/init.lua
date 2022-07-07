@@ -22,4 +22,8 @@ return require('packer').startup(function()
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
     use 'arkav/lualine-lsp-progress'
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
 end)
