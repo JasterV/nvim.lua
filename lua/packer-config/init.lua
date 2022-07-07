@@ -27,4 +27,5 @@ return require('packer').startup(function()
         run = ':TSUpdate'
     }
     use 'nvim-treesitter/nvim-treesitter-refactor'
+    use 'ggandor/leap.nvim'
 end)
